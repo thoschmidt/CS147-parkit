@@ -1,0 +1,220 @@
+#home
+{
+    background-image:url('beforeLogin.gif');
+    background-position:center;
+}
+
+#beforelogin
+{
+    background-image:url('beforeLogin.gif');
+    background-position:center;
+}
+
+.profile
+{
+	margin-left: 55%;
+}
+
+.login
+{
+	margin-left:35%;
+	margin-right:10%;
+	margin-top:120%;
+}
+
+.whatIsButton
+{
+  font-size:16px;
+  margin-right:0%;
+  margin-left:40%;
+  width:55%;
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #b8b8b8) );
+  background:-moz-linear-gradient( center top, #f0f0f0 5%, #b8b8b8 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#b8b8b8');
+  background-color:#f0f0f0;
+  border-radius:6px;
+  border:1px solid #cfcbcf;
+  display:inline-block;
+  color:#332933;
+  font-family:arial;
+  font-weight:bold;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #ffffff;
+}
+.whatIsButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8b8b8), color-stop(1, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #b8b8b8 5%, #f0f0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8b8b8', endColorstr='#f0f0f0');
+	background-color:#b8b8b8;
+}
+.whatIsButton:active {
+	position:relative;
+	top:1px;
+}
+
+.splashPageButton
+{
+  font-size:16px;
+  margin-right:10%;
+  margin-left:55%;
+  width:35%;
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8b8b8), color-stop(1, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #b8b8b8 5%, #f0f0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8b8b8', endColorstr='#f0f0f0');
+	background-color:#b8b8b8;
+
+  border-radius:6px;
+  border:1px solid #cfcbcf;
+  display:inline-block;
+  color:#332933;
+  font-family:arial;
+  font-weight:bold;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #ffffff;
+}
+.splashPageButton:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #b8b8b8) );
+  background:-moz-linear-gradient( center top, #f0f0f0 5%, #b8b8b8 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#b8b8b8');
+  background-color:#f0f0f0;
+}
+.splashPageButton:active {
+	position:relative;
+	top:1px;
+}
+
+.nextButton
+{
+  font-size:16px;
+  margin-left:10px;
+  width:75%;
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8b8b8), color-stop(1, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #b8b8b8 5%, #f0f0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8b8b8', endColorstr='#f0f0f0');
+	background-color:#b8b8b8;
+
+  border-radius:6px;
+  border:1px solid #cfcbcf;
+  display:inline-block;
+  color:#332933;
+  font-family:arial;
+  font-weight:bold;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #ffffff;
+}
+.nextButton:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #b8b8b8) );
+  background:-moz-linear-gradient( center top, #f0f0f0 5%, #b8b8b8 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#b8b8b8');
+  background-color:#f0f0f0;
+}
+.nextButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+body.connected #login {
+	display: none;
+}
+
+body.connected #logout {
+	display: block;
+}
+
+body.not_connected #login {
+	display: block;
+}
+
+body.not_connected #logout {
+	display: none;
+}
+
+body.connected .show_when_not_connected {
+ display: none;
+}
+
+body.connected .show_when_connected {
+ display: block;
+}
+
+body.not_connected .show_when_not_connected {
+ display: block;
+}
+
+body.not_connected .show_when_connected {
+ display: none;
+}
+
+.state_selector
+{
+  float: right;
+  width: 205px;
+  margin-bottom: 8px;
+  font-size:12px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.address_input
+{
+  float: right;
+  display:block;
+	margin-top: 0px;
+}
+
+.address_label
+{
+  float: left;
+  text-align:right;
+  display:block;
+	margin-bottom: 15px;
+
+  width: 70px;
+  clear: left;
+  margin-right: 3px;
+}
+
+#userInfo
+{
+  text-align:center;
+}
+
+.page
+{
+  background-image:url('background.png');
+  background-position:center;
+  color:white;
+  text-align:center;
+  font-size:12pt;
+  font-family:Helvetica, Arial, sans-serif;
+  position:relative;
+}
+
+.modalPage
+{
+	background-image:url('background.png');
+  	background-position:center;
+}
+
+.correct {
+    background: #56d800;
+    border: 3px solid #008000;
+}
+
+.wrong {
+    font-weight: bold;
+    color: #e90000;
+}
+
